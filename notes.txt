@@ -1,0 +1,22 @@
+operators:-
+operators are special symbols which is used to perform operations
+ex:- 2(operand1)+2(operand2)
+1.unary
+2.binary
+3.ternary(operand1 ? operand2 : operand3)
+
+
+1.1 arthmetic
+1.2 assignment
+1.3 relational
+1.4 logical
+
+1.1 arithmetic :- which performs
+1.3 relational:-
+== checks only values but not the datatypes
+===checks bothe values and datatypes
+decision making statetments
+write   a condtion to check greatest numbers among 3 numbers
+let a = 20
+let b = 30
+let c = 40
