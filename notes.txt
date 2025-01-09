@@ -20,3 +20,10 @@ write   a condtion to check greatest numbers among 3 numbers
 let a = 20
 let b = 30
 let c = 40
+functions:
+function is a non-primitive 
+function can be reusable
+syntax:- function function_name(optional parameters){
+
+}
+function_name();
