@@ -27,3 +27,14 @@ syntax:- function function_name(optional parameters){
 
 }
 function_name();
+types of function
+1)named function
+2)anonymous
+3) function expression anonymous function which does not 
+4) immediate invoke function expression
+5)arrow function
+6)higher order function
+7)call back function is a function which is passed 
+
+
+closure is a memory created whne 
