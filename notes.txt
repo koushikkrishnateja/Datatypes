@@ -38,3 +38,61 @@ types of function
 
 
 closure is a memory created whne 
+Arrays
+methods in arrays:
+push(),pop(),unshift(),shift(),concatinate()
+
+
+Array:
+    array is a non-primitive data type.
+    array is used to store multiple values with in single variable 
+
+
+    what is th differece between map and foreach ?
+    map():- 
+
+
+
+
+    what is object?
+    - on=bject is an entity which contain state and bhavior.
+    states: properties,behaviour -functionality.
+    object is an entity to store the values in the form key and value pair.
+    
+    syntax :- let object = {};
+    ex:- let userdetails={
+        name:"sam",
+        age:23
+    }
+    
+    Note:- javascript is mainly object based language till 2015(es6)
+      - after es6 featuer they added oops concept.
+      
+
+      json stands for javascript 
+
+      syntAX 
+      let a = {
+        name
+      }
+
+
+
+
+      to create a json file we have to create using  "filenmae.json 
+      asynchronus in js:
+      setTime()
+      setInterval():- it is  aweb api used to perfrom async
+      promise : it is an object which represents eventual completion of or failure
+          states of promise:-
+          -pending state
+          -fulfilled state
+          -rejected state
+        
+
+      *********************
+      not:- javascript is by default "Synchronous(single threaded)".
+      - it means that it can only perform one task at a time.
+
+
+
