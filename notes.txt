@@ -93,6 +93,9 @@ Array:
       *********************
       not:- javascript is by default "Synchronous(single threaded)".
       - it means that it can only perform one task at a time.
-
+let x = new Promise((resolve , reject)=>{});
+  to execute the promise we have  instance methods;
+  then ():-it is used to excute success or fulfilled results
+  catch() :- 
 
 
