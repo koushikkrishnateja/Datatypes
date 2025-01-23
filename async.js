@@ -34,16 +34,39 @@
 //console.log(p3);
 
 //!api fetching 
-function fetchUsers(){
-    let response = fetch("https://jsonplaceholder.typicode.com/posts");
-     //console.log(response);
-     response.then(res=>{
-        // console.log(res);
-        // console.log(res.json());
-        return res.json().then(data=>{
-            console.log(data);
-        })
-     })
-     .catch(err=>console.log(err))
-}  
-fetchUsers();
+// function fetchUsers(){
+//     let response = fetch("https://jsonplaceholder.typicode.com/posts");
+//      //console.log(response);
+//      response.then(res=>{
+//         // console.log(res);
+//         // console.log(res.json());
+//         return res.json().then(data=>{
+//             console.log(data);
+//         })
+//      })
+//      .catch(err=>console.log(err))
+// }  
+// fetchUsers();
+// ! async & await
+// let p = new Promise ((resolve, reject)=>{
+//     setTimeout(()=>{
+//         resolve("success")
+//     },4000);
+// });
+// async function demo(){
+//     console.log("start");
+//     let x = await p;
+//     console.log(x);
+//     console.log("end");
+
+// }
+// demo();
+// async function fetchUsers(){
+//  let response= await fetch("https://jsonplaceholder.typicode.com/todos/1");
+//  let data = await response.json();
+//     console.log(data);
+
+ 
+// }
+// fetchUsers();
+console.log(window);
