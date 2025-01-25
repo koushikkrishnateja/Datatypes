@@ -22,11 +22,23 @@
 // ele[6].style.backgroundColor="red";
 
 
-let ele =  document.querySelector("#demo");
-console.log(ele);
+// let ele =  document.querySelector("#demo");
+// console.log(ele);
 // let ele =  document.querySelector(".test");
 // console.log(ele);
 
 
 // let ele =  document.querySelectorAll(".test");
 // console.log(ele);
+
+let bgColor = document.querySelectorAll(".bgColor");
+
+[...bgColor].map(element=>{
+    element.addEventListener("mouseover",()=>{
+        element.style.backgroundColor = element.innerText;
+    })
+
+    element.addEventListener("mouseleave", ()=>{
+        element.style.backgroundColor = "transparent";
+    })
+})
