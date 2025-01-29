@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Employee Data</h2>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>Employee ID</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+                <th>City</th>
+                <th>Area</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Employee rows will be inserted here -->
+        </tbody>
+    </table>
+
+    <script>
+        const employees = [
+            {
+                empId: 1,
+                empName: 'Ramesh Goud',
+                empCompany: 'TCS',
+                empSalary: '₹75,000',
+                empAddress: {
+                    empCity: 'Hyderabad',
+                    area: 'Madhapur'
+                }
+            },
+            {
+                empId: 2,
+                empName: 'Sravani Reddy',
+                empCompany: 'Infosys',
+                empSalary: '₹80,000',
+                empAddress: {
+                    empCity: 'Warangal',
+                    area: 'Hanamkonda'
+                }
+            },
+            {
+                empId: 3,
+                empName: 'Rajender Rao',
+                empCompany: 'Wipro',
+                empSalary: '₹85,000',
+                empAddress: {
+                    empCity: 'Karimnagar',
+                    area: 'Mancherial'
+                }
+            }
+        ];
+
+        function populateTable() {
+            const tableBody = document.querySelector('#employeeTable tbody');
+            employees.forEach(employee => {
+                const row = document.createElement('tr');
+
+                row.innerHTML = `
+                    <td>${employee.empId}</td>
+                    <td>${employee.empName}</td>
+                    <td>${employee.empCompany}</td>
+                    <td>${employee.empSalary}</td>
+                    <td>${employee.empAddress.empCity}</td>
+                    <td>${employee.empAddress.area}</td>
+                `;
+
+                tableBody.appendChild(row);
+            });
+        }
+
+        populateTable();
+    </script>
+</body>
+</html>

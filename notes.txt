@@ -116,4 +116,11 @@ let x = new Promise((resolve , reject)=>{});
   4.document.getElementByName(""):-
   5.document.querySelector("#id");
   6.document.querySelectorAll(".class"):-
+ 
+ 
+ 
+  take array of objects where each object contains employee id,emp name ,emp company,emp salary and emp address where emp address further contains an object which includes
+  2 properties such as emp city ,area.
+  display all these employee datas on the ui through javascript in the form of tables .
+
 
