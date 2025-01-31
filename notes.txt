@@ -138,6 +138,8 @@ Dynamic creation of html elements in JS:-
 
 
 
+
+
 Modules:-
 ---------
 1. Named Modules
@@ -150,4 +152,11 @@ Named Modules:-
 
 Default Modules:-
     While importing can use any name that you want. You can export only one
-    modules of code in one source file. You should use the default keyword while exporting.
+    modules of code in one source file. You should use the default keyword while exporting. 
+     modules are divided into 2 types:
+     1.common js modules(server)
+     2.es6 module(client)
+     js modules
+     default modules
+
+     what is difference betweem undefined,undeclared and null.
